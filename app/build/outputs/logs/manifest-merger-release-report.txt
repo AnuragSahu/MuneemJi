@@ -1,0 +1,356 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/vampire/Github/MuneemJi/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /Users/vampire/Github/MuneemJi/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /Users/vampire/Github/MuneemJi/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /Users/vampire/Github/MuneemJi/app/src/main/AndroidManifest.xml:2:1-31:12
+MERGED from [androidx.hilt:hilt-navigation-compose:1.0.0] /Users/vampire/.gradle/caches/transforms-3/130bbce1f9fd0fd626e3d157681ad719/transformed/hilt-navigation-compose-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.material:material:1.3.1] /Users/vampire/.gradle/caches/transforms-3/4057eee5e85c234f6533f8a0b21067f2/transformed/material-1.3.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.material3:material3:1.0.1] /Users/vampire/.gradle/caches/transforms-3/575aa5cabddd69f002ed4ab7f8efca89/transformed/material3-1.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-compose:2.4.0] /Users/vampire/.gradle/caches/transforms-3/fef4a18cc12a7e5d4c0578b495ffea56/transformed/navigation-compose-2.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-compose:1.6.1] /Users/vampire/.gradle/caches/transforms-3/a02f0f5dd7e3d2669c67056107ea5ffd/transformed/activity-compose-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.material:material-ripple:1.3.1] /Users/vampire/.gradle/caches/transforms-3/29c8a7adb5bb2f0aef1a171386c251f4/transformed/material-ripple-1.3.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.foundation:foundation:1.3.1] /Users/vampire/.gradle/caches/transforms-3/149ba73cb4d8efe6cb3255476aad98bd/transformed/foundation-1.3.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.animation:animation:1.3.3] /Users/vampire/.gradle/caches/transforms-3/50905cc0e974b243b94a0e1ce37ea529/transformed/animation-1.3.3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.foundation:foundation-layout:1.3.1] /Users/vampire/.gradle/caches/transforms-3/a88220f4b4a2328d86ef677ec58f2a8a/transformed/foundation-layout-1.3.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.animation:animation-core:1.3.3] /Users/vampire/.gradle/caches/transforms-3/83256887ff9e99464afd83f5b0c4a5bf/transformed/animation-core-1.3.3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.material:material-icons-extended:1.3.1] /Users/vampire/.gradle/caches/transforms-3/fc1a12bd0d8d8b134b7aadd99892a23a/transformed/material-icons-extended-1.3.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.material:material-icons-core:1.3.1] /Users/vampire/.gradle/caches/transforms-3/832ae088100d4a2a8f230d19572ba52d/transformed/material-icons-core-1.3.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui:1.3.3] /Users/vampire/.gradle/caches/transforms-3/0797c20ef072249fc4a32e11ee8d0995/transformed/ui-1.3.3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.hilt:hilt-navigation:1.0.0] /Users/vampire/.gradle/caches/transforms-3/78bbca933d7abcc0fa0e6534f6550066/transformed/hilt-navigation-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.dagger:hilt-android:2.44] /Users/vampire/.gradle/caches/transforms-3/a0309817d17ea32e8a2921275926ba1f/transformed/hilt-android-2.44/AndroidManifest.xml:16:1-19:12
+MERGED from [androidx.fragment:fragment:1.5.1] /Users/vampire/.gradle/caches/transforms-3/a5cc3ec70286563902042e6f7230e2e6/transformed/fragment-1.5.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.6.1] /Users/vampire/.gradle/caches/transforms-3/a60eb3023362ecefdf45f9bb8e7a5ded/transformed/activity-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.4.0] /Users/vampire/.gradle/caches/transforms-3/a07652f3db9940555bc6221e1adcf7cd/transformed/navigation-runtime-ktx-2.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-runtime:2.4.0] /Users/vampire/.gradle/caches/transforms-3/96cf540534b93d95f601829beaa7f3e9/transformed/navigation-runtime-2.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.6.1] /Users/vampire/.gradle/caches/transforms-3/b8d730b5c671d496689bafbf41d4a4a9/transformed/activity-ktx-1.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/vampire/.gradle/caches/transforms-3/5dca083a51728cb8724d971dc910fb7b/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] /Users/vampire/.gradle/caches/transforms-3/cc9530b4056dbc8b95efde34f2d4305f/transformed/lifecycle-livedata-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] /Users/vampire/.gradle/caches/transforms-3/d31d3af66fc4148643d4e49e8f8b4d3f/transformed/lifecycle-livedata-core-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] /Users/vampire/.gradle/caches/transforms-3/97a7d1de676d801ed81f205c6d6a1038/transformed/lifecycle-viewmodel-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/vampire/.gradle/caches/transforms-3/4f6e7822f35a4dab516e9c46c77d8db8/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.4.0] /Users/vampire/.gradle/caches/transforms-3/da5af0af2ca7a9b900d950b6a66a08b0/transformed/navigation-common-ktx-2.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common:2.4.0] /Users/vampire/.gradle/caches/transforms-3/6fa9a4e88534e57ed6941dbb4bed9b3a/transformed/navigation-common-2.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/vampire/.gradle/caches/transforms-3/666fd5075699dd49b3dd0cd03864a7fe/transformed/savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1] /Users/vampire/.gradle/caches/transforms-3/48368b0d341f80598a6d9130e2b53fc6/transformed/lifecycle-viewmodel-ktx-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] /Users/vampire/.gradle/caches/transforms-3/99e3996c70db322ad82eab8fa365b00d/transformed/lifecycle-viewmodel-savedstate-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/vampire/.gradle/caches/transforms-3/c09f45c394d67ee59d32811aa6c8651f/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.core:core-ktx:1.10.1] /Users/vampire/.gradle/caches/transforms-3/41e97cc1ef82827c2dba8eb90fc9d191/transformed/core-ktx-1.10.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-text:1.3.3] /Users/vampire/.gradle/caches/transforms-3/ba30a3eef18b3c7a50c4e05f64d129cb/transformed/ui-text-1.3.3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/vampire/.gradle/caches/transforms-3/976a43d2d181066613b13874043bcd98/transformed/autofill-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/vampire/.gradle/caches/transforms-3/b6595b2f8293e70bca50e05c28f3d749/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/vampire/.gradle/caches/transforms-3/14e1472cfdbff130aa9487bcc922ce25/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.10.1] /Users/vampire/.gradle/caches/transforms-3/c01851e21adafa08ac04c970a86bce4a/transformed/core-1.10.1/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] /Users/vampire/.gradle/caches/transforms-3/4b1617bb9fca65ec1670eebe4c9c146d/transformed/lifecycle-runtime-2.6.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.6.1] /Users/vampire/.gradle/caches/transforms-3/bb027fb3d385b33886254e2f8837b840/transformed/lifecycle-viewmodel-compose-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.1] /Users/vampire/.gradle/caches/transforms-3/6ae1eb6b28380106886c33cf4625ec9e/transformed/lifecycle-runtime-ktx-2.6.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.room:room-ktx:2.4.3] /Users/vampire/.gradle/caches/transforms-3/8a5080d7fe5f8ab05a09dc95adcbbf80/transformed/room-ktx-2.4.3/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.compose.ui:ui-graphics:1.3.3] /Users/vampire/.gradle/caches/transforms-3/799d723fec11575ca313222a096f08f0/transformed/ui-graphics-1.3.3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-tooling-preview:1.3.3] /Users/vampire/.gradle/caches/transforms-3/1a5448855d9810ba357de19c87b9b282/transformed/ui-tooling-preview-1.3.3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.runtime:runtime-saveable:1.3.3] /Users/vampire/.gradle/caches/transforms-3/0bb2cf0d35244bf026a2c8a44d1fd22c/transformed/runtime-saveable-1.3.3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-unit:1.3.3] /Users/vampire/.gradle/caches/transforms-3/edf6cf03e81d60da3c0568bfb9a287c6/transformed/ui-unit-1.3.3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-geometry:1.3.3] /Users/vampire/.gradle/caches/transforms-3/9bd51d7a1e7477f86fbe55014df3d141/transformed/ui-geometry-1.3.3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.runtime:runtime:1.3.3] /Users/vampire/.gradle/caches/transforms-3/d3434347ada4fc76145dbb6683449ee7/transformed/runtime-1.3.3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.room:room-runtime:2.4.3] /Users/vampire/.gradle/caches/transforms-3/104f31ce1ce076b3eee4b55e4ec6cfc4/transformed/room-runtime-2.4.3/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.compose.ui:ui-util:1.3.3] /Users/vampire/.gradle/caches/transforms-3/bfb3441626f447fc3764b35ace9d4b27/transformed/ui-util-1.3.3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/vampire/.gradle/caches/transforms-3/6cbf6e4cc4c50b71869ecea3c9883921/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite-framework:2.2.0] /Users/vampire/.gradle/caches/transforms-3/7245f78b36a1abc10df31728cc83a368/transformed/sqlite-framework-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite:2.2.0] /Users/vampire/.gradle/caches/transforms-3/9c01bbc5b22c335c361f9ee5359295c8/transformed/sqlite-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/vampire/.gradle/caches/transforms-3/9807feb8fbffca05ab8e527617e24323/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/vampire/.gradle/caches/transforms-3/1bee46486817304a802464ac678aec09/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/vampire/.gradle/caches/transforms-3/7dcc06e332e84f98e0d3bed1cb5d2528/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/vampire/.gradle/caches/transforms-3/5a2c9dd6dd60f5aefdc30d47b322c7f2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/vampire/.gradle/caches/transforms-3/bf361be8ce0b484866238be515924400/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/vampire/.gradle/caches/transforms-3/64800f288a78a9cf3b97189915067a52/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.dagger:dagger-lint-aar:2.44] /Users/vampire/.gradle/caches/transforms-3/d330335f1b4e97caa0966ea11f6b0275/transformed/dagger-lint-aar-2.44/AndroidManifest.xml:16:1-19:12
+INJECTED from /Users/vampire/Github/MuneemJi/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /Users/vampire/Github/MuneemJi/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /Users/vampire/Github/MuneemJi/app/src/main/AndroidManifest.xml:2:1-31:12
+	package
+		ADDED from /Users/vampire/Github/MuneemJi/app/src/main/AndroidManifest.xml:4:5-31
+		INJECTED from /Users/vampire/Github/MuneemJi/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/vampire/Github/MuneemJi/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/vampire/Github/MuneemJi/app/src/main/AndroidManifest.xml
+		ADDED from /Users/vampire/Github/MuneemJi/app/src/main/AndroidManifest.xml:2:1-31:12
+		INJECTED from /Users/vampire/Github/MuneemJi/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/vampire/Github/MuneemJi/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /Users/vampire/Github/MuneemJi/app/src/main/AndroidManifest.xml
+		ADDED from /Users/vampire/Github/MuneemJi/app/src/main/AndroidManifest.xml:2:1-31:12
+		INJECTED from /Users/vampire/Github/MuneemJi/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/vampire/Github/MuneemJi/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.READ_SMS
+ADDED from /Users/vampire/Github/MuneemJi/app/src/main/AndroidManifest.xml:6:5-67
+	android:name
+		ADDED from /Users/vampire/Github/MuneemJi/app/src/main/AndroidManifest.xml:6:22-64
+uses-permission#android.permission.RECEIVE_SMS
+ADDED from /Users/vampire/Github/MuneemJi/app/src/main/AndroidManifest.xml:7:5-70
+	android:name
+		ADDED from /Users/vampire/Github/MuneemJi/app/src/main/AndroidManifest.xml:7:22-67
+application
+ADDED from /Users/vampire/Github/MuneemJi/app/src/main/AndroidManifest.xml:9:5-29:19
+MERGED from [androidx.core:core:1.10.1] /Users/vampire/.gradle/caches/transforms-3/c01851e21adafa08ac04c970a86bce4a/transformed/core-1.10.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.10.1] /Users/vampire/.gradle/caches/transforms-3/c01851e21adafa08ac04c970a86bce4a/transformed/core-1.10.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.room:room-runtime:2.4.3] /Users/vampire/.gradle/caches/transforms-3/104f31ce1ce076b3eee4b55e4ec6cfc4/transformed/room-runtime-2.4.3/AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.room:room-runtime:2.4.3] /Users/vampire/.gradle/caches/transforms-3/104f31ce1ce076b3eee4b55e4ec6cfc4/transformed/room-runtime-2.4.3/AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/vampire/.gradle/caches/transforms-3/1bee46486817304a802464ac678aec09/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/vampire/.gradle/caches/transforms-3/1bee46486817304a802464ac678aec09/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/vampire/.gradle/caches/transforms-3/5a2c9dd6dd60f5aefdc30d47b322c7f2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/vampire/.gradle/caches/transforms-3/5a2c9dd6dd60f5aefdc30d47b322c7f2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/vampire/.gradle/caches/transforms-3/bf361be8ce0b484866238be515924400/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/vampire/.gradle/caches/transforms-3/bf361be8ce0b484866238be515924400/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.10.1] /Users/vampire/.gradle/caches/transforms-3/c01851e21adafa08ac04c970a86bce4a/transformed/core-1.10.1/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from /Users/vampire/Github/MuneemJi/app/src/main/AndroidManifest.xml:16:9-35
+	android:label
+		ADDED from /Users/vampire/Github/MuneemJi/app/src/main/AndroidManifest.xml:15:9-41
+	android:fullBackupContent
+		ADDED from /Users/vampire/Github/MuneemJi/app/src/main/AndroidManifest.xml:13:9-54
+	tools:targetApi
+		ADDED from /Users/vampire/Github/MuneemJi/app/src/main/AndroidManifest.xml:18:9-29
+	android:icon
+		ADDED from /Users/vampire/Github/MuneemJi/app/src/main/AndroidManifest.xml:14:9-58
+	android:allowBackup
+		ADDED from /Users/vampire/Github/MuneemJi/app/src/main/AndroidManifest.xml:11:9-35
+	android:theme
+		ADDED from /Users/vampire/Github/MuneemJi/app/src/main/AndroidManifest.xml:17:9-46
+	android:dataExtractionRules
+		ADDED from /Users/vampire/Github/MuneemJi/app/src/main/AndroidManifest.xml:12:9-65
+	android:name
+		ADDED from /Users/vampire/Github/MuneemJi/app/src/main/AndroidManifest.xml:10:9-36
+activity#com.muneemji.app.MainActivity
+ADDED from /Users/vampire/Github/MuneemJi/app/src/main/AndroidManifest.xml:19:9-28:20
+	android:exported
+		ADDED from /Users/vampire/Github/MuneemJi/app/src/main/AndroidManifest.xml:21:13-36
+	android:theme
+		ADDED from /Users/vampire/Github/MuneemJi/app/src/main/AndroidManifest.xml:22:13-50
+	android:name
+		ADDED from /Users/vampire/Github/MuneemJi/app/src/main/AndroidManifest.xml:20:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/vampire/Github/MuneemJi/app/src/main/AndroidManifest.xml:23:13-27:29
+action#android.intent.action.MAIN
+ADDED from /Users/vampire/Github/MuneemJi/app/src/main/AndroidManifest.xml:24:17-69
+	android:name
+		ADDED from /Users/vampire/Github/MuneemJi/app/src/main/AndroidManifest.xml:24:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/vampire/Github/MuneemJi/app/src/main/AndroidManifest.xml:26:17-77
+	android:name
+		ADDED from /Users/vampire/Github/MuneemJi/app/src/main/AndroidManifest.xml:26:27-74
+uses-sdk
+INJECTED from /Users/vampire/Github/MuneemJi/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/vampire/Github/MuneemJi/app/src/main/AndroidManifest.xml
+INJECTED from /Users/vampire/Github/MuneemJi/app/src/main/AndroidManifest.xml
+MERGED from [androidx.hilt:hilt-navigation-compose:1.0.0] /Users/vampire/.gradle/caches/transforms-3/130bbce1f9fd0fd626e3d157681ad719/transformed/hilt-navigation-compose-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.hilt:hilt-navigation-compose:1.0.0] /Users/vampire/.gradle/caches/transforms-3/130bbce1f9fd0fd626e3d157681ad719/transformed/hilt-navigation-compose-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.material:material:1.3.1] /Users/vampire/.gradle/caches/transforms-3/4057eee5e85c234f6533f8a0b21067f2/transformed/material-1.3.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material:1.3.1] /Users/vampire/.gradle/caches/transforms-3/4057eee5e85c234f6533f8a0b21067f2/transformed/material-1.3.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3:1.0.1] /Users/vampire/.gradle/caches/transforms-3/575aa5cabddd69f002ed4ab7f8efca89/transformed/material3-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3:1.0.1] /Users/vampire/.gradle/caches/transforms-3/575aa5cabddd69f002ed4ab7f8efca89/transformed/material3-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-compose:2.4.0] /Users/vampire/.gradle/caches/transforms-3/fef4a18cc12a7e5d4c0578b495ffea56/transformed/navigation-compose-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-compose:2.4.0] /Users/vampire/.gradle/caches/transforms-3/fef4a18cc12a7e5d4c0578b495ffea56/transformed/navigation-compose-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-compose:1.6.1] /Users/vampire/.gradle/caches/transforms-3/a02f0f5dd7e3d2669c67056107ea5ffd/transformed/activity-compose-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-compose:1.6.1] /Users/vampire/.gradle/caches/transforms-3/a02f0f5dd7e3d2669c67056107ea5ffd/transformed/activity-compose-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-ripple:1.3.1] /Users/vampire/.gradle/caches/transforms-3/29c8a7adb5bb2f0aef1a171386c251f4/transformed/material-ripple-1.3.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-ripple:1.3.1] /Users/vampire/.gradle/caches/transforms-3/29c8a7adb5bb2f0aef1a171386c251f4/transformed/material-ripple-1.3.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.foundation:foundation:1.3.1] /Users/vampire/.gradle/caches/transforms-3/149ba73cb4d8efe6cb3255476aad98bd/transformed/foundation-1.3.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.foundation:foundation:1.3.1] /Users/vampire/.gradle/caches/transforms-3/149ba73cb4d8efe6cb3255476aad98bd/transformed/foundation-1.3.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.animation:animation:1.3.3] /Users/vampire/.gradle/caches/transforms-3/50905cc0e974b243b94a0e1ce37ea529/transformed/animation-1.3.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.animation:animation:1.3.3] /Users/vampire/.gradle/caches/transforms-3/50905cc0e974b243b94a0e1ce37ea529/transformed/animation-1.3.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.foundation:foundation-layout:1.3.1] /Users/vampire/.gradle/caches/transforms-3/a88220f4b4a2328d86ef677ec58f2a8a/transformed/foundation-layout-1.3.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.foundation:foundation-layout:1.3.1] /Users/vampire/.gradle/caches/transforms-3/a88220f4b4a2328d86ef677ec58f2a8a/transformed/foundation-layout-1.3.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.animation:animation-core:1.3.3] /Users/vampire/.gradle/caches/transforms-3/83256887ff9e99464afd83f5b0c4a5bf/transformed/animation-core-1.3.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.animation:animation-core:1.3.3] /Users/vampire/.gradle/caches/transforms-3/83256887ff9e99464afd83f5b0c4a5bf/transformed/animation-core-1.3.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-icons-extended:1.3.1] /Users/vampire/.gradle/caches/transforms-3/fc1a12bd0d8d8b134b7aadd99892a23a/transformed/material-icons-extended-1.3.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-icons-extended:1.3.1] /Users/vampire/.gradle/caches/transforms-3/fc1a12bd0d8d8b134b7aadd99892a23a/transformed/material-icons-extended-1.3.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-icons-core:1.3.1] /Users/vampire/.gradle/caches/transforms-3/832ae088100d4a2a8f230d19572ba52d/transformed/material-icons-core-1.3.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-icons-core:1.3.1] /Users/vampire/.gradle/caches/transforms-3/832ae088100d4a2a8f230d19572ba52d/transformed/material-icons-core-1.3.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui:1.3.3] /Users/vampire/.gradle/caches/transforms-3/0797c20ef072249fc4a32e11ee8d0995/transformed/ui-1.3.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui:1.3.3] /Users/vampire/.gradle/caches/transforms-3/0797c20ef072249fc4a32e11ee8d0995/transformed/ui-1.3.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.hilt:hilt-navigation:1.0.0] /Users/vampire/.gradle/caches/transforms-3/78bbca933d7abcc0fa0e6534f6550066/transformed/hilt-navigation-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.hilt:hilt-navigation:1.0.0] /Users/vampire/.gradle/caches/transforms-3/78bbca933d7abcc0fa0e6534f6550066/transformed/hilt-navigation-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.dagger:hilt-android:2.44] /Users/vampire/.gradle/caches/transforms-3/a0309817d17ea32e8a2921275926ba1f/transformed/hilt-android-2.44/AndroidManifest.xml:18:3-42
+MERGED from [com.google.dagger:hilt-android:2.44] /Users/vampire/.gradle/caches/transforms-3/a0309817d17ea32e8a2921275926ba1f/transformed/hilt-android-2.44/AndroidManifest.xml:18:3-42
+MERGED from [androidx.fragment:fragment:1.5.1] /Users/vampire/.gradle/caches/transforms-3/a5cc3ec70286563902042e6f7230e2e6/transformed/fragment-1.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.1] /Users/vampire/.gradle/caches/transforms-3/a5cc3ec70286563902042e6f7230e2e6/transformed/fragment-1.5.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.6.1] /Users/vampire/.gradle/caches/transforms-3/a60eb3023362ecefdf45f9bb8e7a5ded/transformed/activity-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.6.1] /Users/vampire/.gradle/caches/transforms-3/a60eb3023362ecefdf45f9bb8e7a5ded/transformed/activity-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.4.0] /Users/vampire/.gradle/caches/transforms-3/a07652f3db9940555bc6221e1adcf7cd/transformed/navigation-runtime-ktx-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.4.0] /Users/vampire/.gradle/caches/transforms-3/a07652f3db9940555bc6221e1adcf7cd/transformed/navigation-runtime-ktx-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.4.0] /Users/vampire/.gradle/caches/transforms-3/96cf540534b93d95f601829beaa7f3e9/transformed/navigation-runtime-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.4.0] /Users/vampire/.gradle/caches/transforms-3/96cf540534b93d95f601829beaa7f3e9/transformed/navigation-runtime-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.6.1] /Users/vampire/.gradle/caches/transforms-3/b8d730b5c671d496689bafbf41d4a4a9/transformed/activity-ktx-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.6.1] /Users/vampire/.gradle/caches/transforms-3/b8d730b5c671d496689bafbf41d4a4a9/transformed/activity-ktx-1.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/vampire/.gradle/caches/transforms-3/5dca083a51728cb8724d971dc910fb7b/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/vampire/.gradle/caches/transforms-3/5dca083a51728cb8724d971dc910fb7b/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] /Users/vampire/.gradle/caches/transforms-3/cc9530b4056dbc8b95efde34f2d4305f/transformed/lifecycle-livedata-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.1] /Users/vampire/.gradle/caches/transforms-3/cc9530b4056dbc8b95efde34f2d4305f/transformed/lifecycle-livedata-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] /Users/vampire/.gradle/caches/transforms-3/d31d3af66fc4148643d4e49e8f8b4d3f/transformed/lifecycle-livedata-core-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.1] /Users/vampire/.gradle/caches/transforms-3/d31d3af66fc4148643d4e49e8f8b4d3f/transformed/lifecycle-livedata-core-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] /Users/vampire/.gradle/caches/transforms-3/97a7d1de676d801ed81f205c6d6a1038/transformed/lifecycle-viewmodel-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.1] /Users/vampire/.gradle/caches/transforms-3/97a7d1de676d801ed81f205c6d6a1038/transformed/lifecycle-viewmodel-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/vampire/.gradle/caches/transforms-3/4f6e7822f35a4dab516e9c46c77d8db8/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /Users/vampire/.gradle/caches/transforms-3/4f6e7822f35a4dab516e9c46c77d8db8/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.4.0] /Users/vampire/.gradle/caches/transforms-3/da5af0af2ca7a9b900d950b6a66a08b0/transformed/navigation-common-ktx-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common-ktx:2.4.0] /Users/vampire/.gradle/caches/transforms-3/da5af0af2ca7a9b900d950b6a66a08b0/transformed/navigation-common-ktx-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.4.0] /Users/vampire/.gradle/caches/transforms-3/6fa9a4e88534e57ed6941dbb4bed9b3a/transformed/navigation-common-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.4.0] /Users/vampire/.gradle/caches/transforms-3/6fa9a4e88534e57ed6941dbb4bed9b3a/transformed/navigation-common-2.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/vampire/.gradle/caches/transforms-3/666fd5075699dd49b3dd0cd03864a7fe/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/vampire/.gradle/caches/transforms-3/666fd5075699dd49b3dd0cd03864a7fe/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1] /Users/vampire/.gradle/caches/transforms-3/48368b0d341f80598a6d9130e2b53fc6/transformed/lifecycle-viewmodel-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1] /Users/vampire/.gradle/caches/transforms-3/48368b0d341f80598a6d9130e2b53fc6/transformed/lifecycle-viewmodel-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] /Users/vampire/.gradle/caches/transforms-3/99e3996c70db322ad82eab8fa365b00d/transformed/lifecycle-viewmodel-savedstate-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1] /Users/vampire/.gradle/caches/transforms-3/99e3996c70db322ad82eab8fa365b00d/transformed/lifecycle-viewmodel-savedstate-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/vampire/.gradle/caches/transforms-3/c09f45c394d67ee59d32811aa6c8651f/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /Users/vampire/.gradle/caches/transforms-3/c09f45c394d67ee59d32811aa6c8651f/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.core:core-ktx:1.10.1] /Users/vampire/.gradle/caches/transforms-3/41e97cc1ef82827c2dba8eb90fc9d191/transformed/core-ktx-1.10.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.10.1] /Users/vampire/.gradle/caches/transforms-3/41e97cc1ef82827c2dba8eb90fc9d191/transformed/core-ktx-1.10.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text:1.3.3] /Users/vampire/.gradle/caches/transforms-3/ba30a3eef18b3c7a50c4e05f64d129cb/transformed/ui-text-1.3.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-text:1.3.3] /Users/vampire/.gradle/caches/transforms-3/ba30a3eef18b3c7a50c4e05f64d129cb/transformed/ui-text-1.3.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/vampire/.gradle/caches/transforms-3/976a43d2d181066613b13874043bcd98/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] /Users/vampire/.gradle/caches/transforms-3/976a43d2d181066613b13874043bcd98/transformed/autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/vampire/.gradle/caches/transforms-3/b6595b2f8293e70bca50e05c28f3d749/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/vampire/.gradle/caches/transforms-3/b6595b2f8293e70bca50e05c28f3d749/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/vampire/.gradle/caches/transforms-3/14e1472cfdbff130aa9487bcc922ce25/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/vampire/.gradle/caches/transforms-3/14e1472cfdbff130aa9487bcc922ce25/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.10.1] /Users/vampire/.gradle/caches/transforms-3/c01851e21adafa08ac04c970a86bce4a/transformed/core-1.10.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.10.1] /Users/vampire/.gradle/caches/transforms-3/c01851e21adafa08ac04c970a86bce4a/transformed/core-1.10.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] /Users/vampire/.gradle/caches/transforms-3/4b1617bb9fca65ec1670eebe4c9c146d/transformed/lifecycle-runtime-2.6.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.1] /Users/vampire/.gradle/caches/transforms-3/4b1617bb9fca65ec1670eebe4c9c146d/transformed/lifecycle-runtime-2.6.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.6.1] /Users/vampire/.gradle/caches/transforms-3/bb027fb3d385b33886254e2f8837b840/transformed/lifecycle-viewmodel-compose-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose:2.6.1] /Users/vampire/.gradle/caches/transforms-3/bb027fb3d385b33886254e2f8837b840/transformed/lifecycle-viewmodel-compose-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.1] /Users/vampire/.gradle/caches/transforms-3/6ae1eb6b28380106886c33cf4625ec9e/transformed/lifecycle-runtime-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.1] /Users/vampire/.gradle/caches/transforms-3/6ae1eb6b28380106886c33cf4625ec9e/transformed/lifecycle-runtime-ktx-2.6.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-ktx:2.4.3] /Users/vampire/.gradle/caches/transforms-3/8a5080d7fe5f8ab05a09dc95adcbbf80/transformed/room-ktx-2.4.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-ktx:2.4.3] /Users/vampire/.gradle/caches/transforms-3/8a5080d7fe5f8ab05a09dc95adcbbf80/transformed/room-ktx-2.4.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-graphics:1.3.3] /Users/vampire/.gradle/caches/transforms-3/799d723fec11575ca313222a096f08f0/transformed/ui-graphics-1.3.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-graphics:1.3.3] /Users/vampire/.gradle/caches/transforms-3/799d723fec11575ca313222a096f08f0/transformed/ui-graphics-1.3.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview:1.3.3] /Users/vampire/.gradle/caches/transforms-3/1a5448855d9810ba357de19c87b9b282/transformed/ui-tooling-preview-1.3.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview:1.3.3] /Users/vampire/.gradle/caches/transforms-3/1a5448855d9810ba357de19c87b9b282/transformed/ui-tooling-preview-1.3.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable:1.3.3] /Users/vampire/.gradle/caches/transforms-3/0bb2cf0d35244bf026a2c8a44d1fd22c/transformed/runtime-saveable-1.3.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable:1.3.3] /Users/vampire/.gradle/caches/transforms-3/0bb2cf0d35244bf026a2c8a44d1fd22c/transformed/runtime-saveable-1.3.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-unit:1.3.3] /Users/vampire/.gradle/caches/transforms-3/edf6cf03e81d60da3c0568bfb9a287c6/transformed/ui-unit-1.3.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-unit:1.3.3] /Users/vampire/.gradle/caches/transforms-3/edf6cf03e81d60da3c0568bfb9a287c6/transformed/ui-unit-1.3.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-geometry:1.3.3] /Users/vampire/.gradle/caches/transforms-3/9bd51d7a1e7477f86fbe55014df3d141/transformed/ui-geometry-1.3.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-geometry:1.3.3] /Users/vampire/.gradle/caches/transforms-3/9bd51d7a1e7477f86fbe55014df3d141/transformed/ui-geometry-1.3.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.runtime:runtime:1.3.3] /Users/vampire/.gradle/caches/transforms-3/d3434347ada4fc76145dbb6683449ee7/transformed/runtime-1.3.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.runtime:runtime:1.3.3] /Users/vampire/.gradle/caches/transforms-3/d3434347ada4fc76145dbb6683449ee7/transformed/runtime-1.3.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-runtime:2.4.3] /Users/vampire/.gradle/caches/transforms-3/104f31ce1ce076b3eee4b55e4ec6cfc4/transformed/room-runtime-2.4.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.4.3] /Users/vampire/.gradle/caches/transforms-3/104f31ce1ce076b3eee4b55e4ec6cfc4/transformed/room-runtime-2.4.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.compose.ui:ui-util:1.3.3] /Users/vampire/.gradle/caches/transforms-3/bfb3441626f447fc3764b35ace9d4b27/transformed/ui-util-1.3.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-util:1.3.3] /Users/vampire/.gradle/caches/transforms-3/bfb3441626f447fc3764b35ace9d4b27/transformed/ui-util-1.3.3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/vampire/.gradle/caches/transforms-3/6cbf6e4cc4c50b71869ecea3c9883921/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/vampire/.gradle/caches/transforms-3/6cbf6e4cc4c50b71869ecea3c9883921/transformed/annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.2.0] /Users/vampire/.gradle/caches/transforms-3/7245f78b36a1abc10df31728cc83a368/transformed/sqlite-framework-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.2.0] /Users/vampire/.gradle/caches/transforms-3/7245f78b36a1abc10df31728cc83a368/transformed/sqlite-framework-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.2.0] /Users/vampire/.gradle/caches/transforms-3/9c01bbc5b22c335c361f9ee5359295c8/transformed/sqlite-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.2.0] /Users/vampire/.gradle/caches/transforms-3/9c01bbc5b22c335c361f9ee5359295c8/transformed/sqlite-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/vampire/.gradle/caches/transforms-3/9807feb8fbffca05ab8e527617e24323/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/vampire/.gradle/caches/transforms-3/9807feb8fbffca05ab8e527617e24323/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/vampire/.gradle/caches/transforms-3/1bee46486817304a802464ac678aec09/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/vampire/.gradle/caches/transforms-3/1bee46486817304a802464ac678aec09/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/vampire/.gradle/caches/transforms-3/7dcc06e332e84f98e0d3bed1cb5d2528/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/vampire/.gradle/caches/transforms-3/7dcc06e332e84f98e0d3bed1cb5d2528/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/vampire/.gradle/caches/transforms-3/5a2c9dd6dd60f5aefdc30d47b322c7f2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/vampire/.gradle/caches/transforms-3/5a2c9dd6dd60f5aefdc30d47b322c7f2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/vampire/.gradle/caches/transforms-3/bf361be8ce0b484866238be515924400/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/vampire/.gradle/caches/transforms-3/bf361be8ce0b484866238be515924400/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/vampire/.gradle/caches/transforms-3/64800f288a78a9cf3b97189915067a52/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /Users/vampire/.gradle/caches/transforms-3/64800f288a78a9cf3b97189915067a52/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.dagger:dagger-lint-aar:2.44] /Users/vampire/.gradle/caches/transforms-3/d330335f1b4e97caa0966ea11f6b0275/transformed/dagger-lint-aar-2.44/AndroidManifest.xml:18:3-42
+MERGED from [com.google.dagger:dagger-lint-aar:2.44] /Users/vampire/.gradle/caches/transforms-3/d330335f1b4e97caa0966ea11f6b0275/transformed/dagger-lint-aar-2.44/AndroidManifest.xml:18:3-42
+INJECTED from /Users/vampire/Github/MuneemJi/app/src/main/AndroidManifest.xml
+INJECTED from /Users/vampire/Github/MuneemJi/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/vampire/Github/MuneemJi/app/src/main/AndroidManifest.xml
+		ADDED from /Users/vampire/Github/MuneemJi/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/vampire/Github/MuneemJi/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/vampire/Github/MuneemJi/app/src/main/AndroidManifest.xml
+		ADDED from /Users/vampire/Github/MuneemJi/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/vampire/Github/MuneemJi/app/src/main/AndroidManifest.xml
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.10.1] /Users/vampire/.gradle/caches/transforms-3/c01851e21adafa08ac04c970a86bce4a/transformed/core-1.10.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.10.1] /Users/vampire/.gradle/caches/transforms-3/c01851e21adafa08ac04c970a86bce4a/transformed/core-1.10.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.10.1] /Users/vampire/.gradle/caches/transforms-3/c01851e21adafa08ac04c970a86bce4a/transformed/core-1.10.1/AndroidManifest.xml:23:9-81
+permission#com.muneemji.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.10.1] /Users/vampire/.gradle/caches/transforms-3/c01851e21adafa08ac04c970a86bce4a/transformed/core-1.10.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.10.1] /Users/vampire/.gradle/caches/transforms-3/c01851e21adafa08ac04c970a86bce4a/transformed/core-1.10.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.10.1] /Users/vampire/.gradle/caches/transforms-3/c01851e21adafa08ac04c970a86bce4a/transformed/core-1.10.1/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.10.1] /Users/vampire/.gradle/caches/transforms-3/c01851e21adafa08ac04c970a86bce4a/transformed/core-1.10.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.10.1] /Users/vampire/.gradle/caches/transforms-3/c01851e21adafa08ac04c970a86bce4a/transformed/core-1.10.1/AndroidManifest.xml:26:22-94
+uses-permission#com.muneemji.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.10.1] /Users/vampire/.gradle/caches/transforms-3/c01851e21adafa08ac04c970a86bce4a/transformed/core-1.10.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.10.1] /Users/vampire/.gradle/caches/transforms-3/c01851e21adafa08ac04c970a86bce4a/transformed/core-1.10.1/AndroidManifest.xml:26:22-94
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.4.3] /Users/vampire/.gradle/caches/transforms-3/104f31ce1ce076b3eee4b55e4ec6cfc4/transformed/room-runtime-2.4.3/AndroidManifest.xml:25:9-28:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.4.3] /Users/vampire/.gradle/caches/transforms-3/104f31ce1ce076b3eee4b55e4ec6cfc4/transformed/room-runtime-2.4.3/AndroidManifest.xml:28:13-37
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.4.3] /Users/vampire/.gradle/caches/transforms-3/104f31ce1ce076b3eee4b55e4ec6cfc4/transformed/room-runtime-2.4.3/AndroidManifest.xml:27:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.4.3] /Users/vampire/.gradle/caches/transforms-3/104f31ce1ce076b3eee4b55e4ec6cfc4/transformed/room-runtime-2.4.3/AndroidManifest.xml:26:13-74
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/vampire/.gradle/caches/transforms-3/5a2c9dd6dd60f5aefdc30d47b322c7f2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/vampire/.gradle/caches/transforms-3/bf361be8ce0b484866238be515924400/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/vampire/.gradle/caches/transforms-3/bf361be8ce0b484866238be515924400/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/vampire/.gradle/caches/transforms-3/5a2c9dd6dd60f5aefdc30d47b322c7f2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/vampire/.gradle/caches/transforms-3/5a2c9dd6dd60f5aefdc30d47b322c7f2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/vampire/.gradle/caches/transforms-3/5a2c9dd6dd60f5aefdc30d47b322c7f2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/vampire/.gradle/caches/transforms-3/5a2c9dd6dd60f5aefdc30d47b322c7f2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/vampire/.gradle/caches/transforms-3/5a2c9dd6dd60f5aefdc30d47b322c7f2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/vampire/.gradle/caches/transforms-3/5a2c9dd6dd60f5aefdc30d47b322c7f2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/vampire/.gradle/caches/transforms-3/5a2c9dd6dd60f5aefdc30d47b322c7f2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/vampire/.gradle/caches/transforms-3/5a2c9dd6dd60f5aefdc30d47b322c7f2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/vampire/.gradle/caches/transforms-3/5a2c9dd6dd60f5aefdc30d47b322c7f2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/vampire/.gradle/caches/transforms-3/5a2c9dd6dd60f5aefdc30d47b322c7f2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/vampire/.gradle/caches/transforms-3/5a2c9dd6dd60f5aefdc30d47b322c7f2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/vampire/.gradle/caches/transforms-3/5a2c9dd6dd60f5aefdc30d47b322c7f2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/vampire/.gradle/caches/transforms-3/5a2c9dd6dd60f5aefdc30d47b322c7f2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/vampire/.gradle/caches/transforms-3/5a2c9dd6dd60f5aefdc30d47b322c7f2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/vampire/.gradle/caches/transforms-3/5a2c9dd6dd60f5aefdc30d47b322c7f2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/vampire/.gradle/caches/transforms-3/5a2c9dd6dd60f5aefdc30d47b322c7f2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/vampire/.gradle/caches/transforms-3/5a2c9dd6dd60f5aefdc30d47b322c7f2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/vampire/.gradle/caches/transforms-3/5a2c9dd6dd60f5aefdc30d47b322c7f2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/vampire/.gradle/caches/transforms-3/5a2c9dd6dd60f5aefdc30d47b322c7f2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/vampire/.gradle/caches/transforms-3/5a2c9dd6dd60f5aefdc30d47b322c7f2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/vampire/.gradle/caches/transforms-3/5a2c9dd6dd60f5aefdc30d47b322c7f2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/vampire/.gradle/caches/transforms-3/5a2c9dd6dd60f5aefdc30d47b322c7f2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/vampire/.gradle/caches/transforms-3/5a2c9dd6dd60f5aefdc30d47b322c7f2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/vampire/.gradle/caches/transforms-3/5a2c9dd6dd60f5aefdc30d47b322c7f2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.0] /Users/vampire/.gradle/caches/transforms-3/5a2c9dd6dd60f5aefdc30d47b322c7f2/transformed/profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
