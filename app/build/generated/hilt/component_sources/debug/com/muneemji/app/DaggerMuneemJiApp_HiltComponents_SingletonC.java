@@ -13,6 +13,8 @@ import com.muneemji.app.di.AppModule_ProvideDatabaseFactory;
 import com.muneemji.app.di.AppModule_ProvideTransactionDaoFactory;
 import com.muneemji.app.di.AppModule_ProvideTransactionParserFactory;
 import com.muneemji.app.parser.TransactionParser;
+import com.muneemji.app.repository.OnboardingRepository;
+import com.muneemji.app.repository.SheetsRepository;
 import com.muneemji.app.repository.SmsRepository;
 import com.muneemji.app.ui.MainViewModel;
 import com.muneemji.app.ui.MainViewModel_HiltModules_KeyModule_ProvideFactory;
@@ -449,7 +451,7 @@ public final class DaggerMuneemJiApp_HiltComponents_SingletonC {
       public T get() {
         switch (id) {
           case 0: // com.muneemji.app.ui.MainViewModel 
-          return (T) new MainViewModel(singletonCImpl.smsRepositoryProvider.get());
+          return (T) new MainViewModel(singletonCImpl.smsRepositoryProvider.get(), singletonCImpl.onboardingRepositoryProvider.get(), singletonCImpl.sheetsRepositoryProvider.get());
 
           default: throw new AssertionError(id);
         }
@@ -536,6 +538,10 @@ public final class DaggerMuneemJiApp_HiltComponents_SingletonC {
 
     private Provider<SmsRepository> smsRepositoryProvider;
 
+    private Provider<OnboardingRepository> onboardingRepositoryProvider;
+
+    private Provider<SheetsRepository> sheetsRepositoryProvider;
+
     private SingletonCImpl(ApplicationContextModule applicationContextModuleParam) {
       this.applicationContextModule = applicationContextModuleParam;
       initialize(applicationContextModuleParam);
@@ -551,6 +557,8 @@ public final class DaggerMuneemJiApp_HiltComponents_SingletonC {
       this.provideDatabaseProvider = DoubleCheck.provider(new SwitchingProvider<AppDatabase>(singletonCImpl, 1));
       this.provideTransactionParserProvider = DoubleCheck.provider(new SwitchingProvider<TransactionParser>(singletonCImpl, 2));
       this.smsRepositoryProvider = DoubleCheck.provider(new SwitchingProvider<SmsRepository>(singletonCImpl, 0));
+      this.onboardingRepositoryProvider = DoubleCheck.provider(new SwitchingProvider<OnboardingRepository>(singletonCImpl, 3));
+      this.sheetsRepositoryProvider = DoubleCheck.provider(new SwitchingProvider<SheetsRepository>(singletonCImpl, 4));
     }
 
     @Override
@@ -594,6 +602,12 @@ public final class DaggerMuneemJiApp_HiltComponents_SingletonC {
 
           case 2: // com.muneemji.app.parser.TransactionParser 
           return (T) AppModule_ProvideTransactionParserFactory.provideTransactionParser();
+
+          case 3: // com.muneemji.app.repository.OnboardingRepository 
+          return (T) new OnboardingRepository(ApplicationContextModule_ProvideContextFactory.provideContext(singletonCImpl.applicationContextModule));
+
+          case 4: // com.muneemji.app.repository.SheetsRepository 
+          return (T) new SheetsRepository(ApplicationContextModule_ProvideContextFactory.provideContext(singletonCImpl.applicationContextModule), singletonCImpl.transactionDao());
 
           default: throw new AssertionError(id);
         }

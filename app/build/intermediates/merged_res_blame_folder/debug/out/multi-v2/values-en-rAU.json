@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.muneemji.app-mergeDebugResources-56:/values-en-rAU/values-en-rAU.xml",
+            "outputFile": "com.muneemji.app-mergeDebugResources-60:/values-en-rAU/values-en-rAU.xml",
             "map": [
                 {
                     "source": "/Users/vampire/.gradle/caches/transforms-3/0797c20ef072249fc4a32e11ee8d0995/transformed/ui-1.3.3/res/values-en-rAU/values-en-rAU.xml",

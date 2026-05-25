@@ -21,6 +21,10 @@ class SmsRepository @Inject constructor(
 ) {
     val transactions: Flow<List<TransactionEntity>> = transactionDao.getAllTransactions()
 
+    suspend fun updateCategory(transactionId: Int, category: String) = withContext(Dispatchers.IO) {
+        transactionDao.updateCategory(transactionId, category)
+    }
+
     suspend fun syncSmsMessages() = withContext(Dispatchers.IO) {
         val cursor = context.contentResolver.query(
             Uri.parse("content://sms/inbox"),

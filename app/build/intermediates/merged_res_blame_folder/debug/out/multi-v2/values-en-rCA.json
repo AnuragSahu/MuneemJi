@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.muneemji.app-mergeDebugResources-56:/values-en-rCA/values-en-rCA.xml",
+            "outputFile": "com.muneemji.app-mergeDebugResources-60:/values-en-rCA/values-en-rCA.xml",
             "map": [
                 {
                     "source": "/Users/vampire/.gradle/caches/transforms-3/575aa5cabddd69f002ed4ab7f8efca89/transformed/material3-1.0.1/res/values-en-rCA/values-en-rCA.xml",

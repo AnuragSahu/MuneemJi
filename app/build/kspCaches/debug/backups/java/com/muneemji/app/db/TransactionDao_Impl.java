@@ -1,6 +1,7 @@
 package com.muneemji.app.db;
 
 import android.database.Cursor;
+import android.os.CancellationSignal;
 import androidx.room.CoroutinesRoom;
 import androidx.room.EntityInsertionAdapter;
 import androidx.room.RoomDatabase;
@@ -31,6 +32,8 @@ public final class TransactionDao_Impl implements TransactionDao {
   private final RoomDatabase __db;
 
   private final EntityInsertionAdapter<TransactionEntity> __insertionAdapterOfTransactionEntity;
+
+  private final SharedSQLiteStatement __preparedStmtOfUpdateCategory;
 
   private final SharedSQLiteStatement __preparedStmtOfClearAll;
 
@@ -75,6 +78,13 @@ public final class TransactionDao_Impl implements TransactionDao {
         stmt.bindLong(8, _tmp);
       }
     };
+    this.__preparedStmtOfUpdateCategory = new SharedSQLiteStatement(__db) {
+      @Override
+      public String createQuery() {
+        final String _query = "UPDATE transactions SET category = ? WHERE id = ?";
+        return _query;
+      }
+    };
     this.__preparedStmtOfClearAll = new SharedSQLiteStatement(__db) {
       @Override
       public String createQuery() {
@@ -97,6 +107,34 @@ public final class TransactionDao_Impl implements TransactionDao {
           return Unit.INSTANCE;
         } finally {
           __db.endTransaction();
+        }
+      }
+    }, continuation);
+  }
+
+  @Override
+  public Object updateCategory(final int transactionId, final String category,
+      final Continuation<? super Unit> continuation) {
+    return CoroutinesRoom.execute(__db, true, new Callable<Unit>() {
+      @Override
+      public Unit call() throws Exception {
+        final SupportSQLiteStatement _stmt = __preparedStmtOfUpdateCategory.acquire();
+        int _argIndex = 1;
+        if (category == null) {
+          _stmt.bindNull(_argIndex);
+        } else {
+          _stmt.bindString(_argIndex, category);
+        }
+        _argIndex = 2;
+        _stmt.bindLong(_argIndex, transactionId);
+        __db.beginTransaction();
+        try {
+          _stmt.executeUpdateDelete();
+          __db.setTransactionSuccessful();
+          return Unit.INSTANCE;
+        } finally {
+          __db.endTransaction();
+          __preparedStmtOfUpdateCategory.release(_stmt);
         }
       }
     }, continuation);
@@ -193,6 +231,78 @@ public final class TransactionDao_Impl implements TransactionDao {
         _statement.release();
       }
     });
+  }
+
+  @Override
+  public Object getAllTransactionsOnce(
+      final Continuation<? super List<TransactionEntity>> continuation) {
+    final String _sql = "SELECT * FROM transactions ORDER BY timestamp DESC";
+    final RoomSQLiteQuery _statement = RoomSQLiteQuery.acquire(_sql, 0);
+    final CancellationSignal _cancellationSignal = DBUtil.createCancellationSignal();
+    return CoroutinesRoom.execute(__db, false, _cancellationSignal, new Callable<List<TransactionEntity>>() {
+      @Override
+      public List<TransactionEntity> call() throws Exception {
+        final Cursor _cursor = DBUtil.query(__db, _statement, false, null);
+        try {
+          final int _cursorIndexOfId = CursorUtil.getColumnIndexOrThrow(_cursor, "id");
+          final int _cursorIndexOfSender = CursorUtil.getColumnIndexOrThrow(_cursor, "sender");
+          final int _cursorIndexOfBody = CursorUtil.getColumnIndexOrThrow(_cursor, "body");
+          final int _cursorIndexOfAmount = CursorUtil.getColumnIndexOrThrow(_cursor, "amount");
+          final int _cursorIndexOfMerchant = CursorUtil.getColumnIndexOrThrow(_cursor, "merchant");
+          final int _cursorIndexOfCategory = CursorUtil.getColumnIndexOrThrow(_cursor, "category");
+          final int _cursorIndexOfTimestamp = CursorUtil.getColumnIndexOrThrow(_cursor, "timestamp");
+          final int _cursorIndexOfIsParsed = CursorUtil.getColumnIndexOrThrow(_cursor, "isParsed");
+          final List<TransactionEntity> _result = new ArrayList<TransactionEntity>(_cursor.getCount());
+          while(_cursor.moveToNext()) {
+            final TransactionEntity _item;
+            final int _tmpId;
+            _tmpId = _cursor.getInt(_cursorIndexOfId);
+            final String _tmpSender;
+            if (_cursor.isNull(_cursorIndexOfSender)) {
+              _tmpSender = null;
+            } else {
+              _tmpSender = _cursor.getString(_cursorIndexOfSender);
+            }
+            final String _tmpBody;
+            if (_cursor.isNull(_cursorIndexOfBody)) {
+              _tmpBody = null;
+            } else {
+              _tmpBody = _cursor.getString(_cursorIndexOfBody);
+            }
+            final Double _tmpAmount;
+            if (_cursor.isNull(_cursorIndexOfAmount)) {
+              _tmpAmount = null;
+            } else {
+              _tmpAmount = _cursor.getDouble(_cursorIndexOfAmount);
+            }
+            final String _tmpMerchant;
+            if (_cursor.isNull(_cursorIndexOfMerchant)) {
+              _tmpMerchant = null;
+            } else {
+              _tmpMerchant = _cursor.getString(_cursorIndexOfMerchant);
+            }
+            final String _tmpCategory;
+            if (_cursor.isNull(_cursorIndexOfCategory)) {
+              _tmpCategory = null;
+            } else {
+              _tmpCategory = _cursor.getString(_cursorIndexOfCategory);
+            }
+            final long _tmpTimestamp;
+            _tmpTimestamp = _cursor.getLong(_cursorIndexOfTimestamp);
+            final boolean _tmpIsParsed;
+            final int _tmp;
+            _tmp = _cursor.getInt(_cursorIndexOfIsParsed);
+            _tmpIsParsed = _tmp != 0;
+            _item = new TransactionEntity(_tmpId,_tmpSender,_tmpBody,_tmpAmount,_tmpMerchant,_tmpCategory,_tmpTimestamp,_tmpIsParsed);
+            _result.add(_item);
+          }
+          return _result;
+        } finally {
+          _cursor.close();
+          _statement.release();
+        }
+      }
+    }, continuation);
   }
 
   public static List<Class<?>> getRequiredConverters() {

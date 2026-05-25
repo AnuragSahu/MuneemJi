@@ -54,6 +54,7 @@ dependencies {
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.6.1")
     implementation("androidx.activity:activity-compose:1.6.1")
     implementation("androidx.compose.material:material-icons-extended")
+    implementation("androidx.core:core-splashscreen:1.0.1")
     implementation(platform("androidx.compose:compose-bom:2023.01.00"))
     implementation("androidx.compose.ui:ui")
     implementation("androidx.compose.ui:ui-graphics")
@@ -75,6 +76,10 @@ dependencies {
 
     // Coroutines
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
+
+    // Google Identity Services for OAuth access to Google Sheets/Drive.
+    // Keep this on 20.7.0 while the project is pinned to Kotlin 1.7.20 / Compose compiler 1.3.2.
+    implementation("com.google.android.gms:play-services-auth:20.7.0")
     
     // Accompanist for Permissions (now mostly migrated, but standard accompanist is still useful, or we can use standard request logic, but standard activity-compose has rememberLauncherForActivityResult)
 

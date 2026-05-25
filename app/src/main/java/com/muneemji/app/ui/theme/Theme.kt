@@ -1,9 +1,8 @@
 package com.muneemji.app.ui.theme
 
-import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Typography
-import androidx.compose.material3.lightColorScheme
+import androidx.compose.material3.darkColorScheme
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.TextStyle
@@ -11,80 +10,101 @@ import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
 
-val PrimaryIndigo = Color(0xFF1A237E)
-val SaffronAccent = Color(0xFFFF8F00)
-val SuccessGreen = Color(0xFF2E7D32)
-val WarmBackground = Color(0xFFFDFBF7)
-val TextDark = Color(0xFF121212)
-val CardIvory = Color(0xFFFAF9F5)
-val SurfaceVariant = Color(0xFFEBE8E0)
-val ErrorRed = Color(0xFFD32F2F)
+// =========================
+// Core Dark Palette
+// =========================
 
-private val LightColorScheme = lightColorScheme(
+val BackgroundDark = Color(0xFF0B0F1A)
+val SurfaceDark = Color(0xFF151B2D)
+
+val PrimaryIndigo = Color(0xFF7C8CFF)
+val SuccessGreen = Color(0xFF4ADE80)
+val ErrorRed = Color(0xFFFF6B6B)
+
+val TextPrimary = Color(0xFFF5F7FA)
+val TextSecondary = Color(0xFF9AA4BF)
+
+// =========================
+// Backward Compatibility Colors
+// (Needed by existing UI screens)
+// =========================
+
+val SaffronAccent = Color(0xFFFFB347)
+val WarmBackground = BackgroundDark
+val CardIvory = SurfaceDark
+val SurfaceVariant = Color(0xFF232B3E)
+val TextDark = TextPrimary
+
+// =========================
+// Material Theme Colors
+// =========================
+
+private val DarkColors = darkColorScheme(
     primary = PrimaryIndigo,
-    secondary = SaffronAccent,
-    tertiary = SuccessGreen,
-    background = WarmBackground,
-    surface = CardIvory,
+    secondary = SuccessGreen,
+    background = BackgroundDark,
+    surface = SurfaceDark,
     onPrimary = Color.White,
-    onSecondary = Color.White,
-    onBackground = TextDark,
-    onSurface = TextDark,
-    surfaceVariant = SurfaceVariant,
-    onSurfaceVariant = Color(0xFF5D5D5D),
+    onBackground = TextPrimary,
+    onSurface = TextPrimary,
     error = ErrorRed
 )
 
-// Inter / modern sans-serif look using default for now, can be configured to load fonts
+// =========================
+// Typography
+// =========================
+
 val AppTypography = Typography(
+
     headlineLarge = TextStyle(
         fontFamily = FontFamily.SansSerif,
         fontWeight = FontWeight.Bold,
-        fontSize = 32.sp,
-        lineHeight = 40.sp,
-        letterSpacing = 0.sp
+        fontSize = 32.sp
     ),
+
     headlineMedium = TextStyle(
         fontFamily = FontFamily.SansSerif,
         fontWeight = FontWeight.Bold,
-        fontSize = 24.sp,
-        lineHeight = 32.sp
+        fontSize = 24.sp
     ),
+
     titleLarge = TextStyle(
         fontFamily = FontFamily.SansSerif,
         fontWeight = FontWeight.SemiBold,
-        fontSize = 22.sp,
-        lineHeight = 28.sp
+        fontSize = 20.sp
     ),
+
     titleMedium = TextStyle(
         fontFamily = FontFamily.SansSerif,
         fontWeight = FontWeight.Medium,
-        fontSize = 16.sp,
-        lineHeight = 24.sp
+        fontSize = 16.sp
     ),
+
     bodyLarge = TextStyle(
         fontFamily = FontFamily.SansSerif,
         fontWeight = FontWeight.Normal,
         fontSize = 16.sp,
-        lineHeight = 24.sp,
-        letterSpacing = 0.5.sp
+        color = TextPrimary
     ),
+
     bodyMedium = TextStyle(
         fontFamily = FontFamily.SansSerif,
         fontWeight = FontWeight.Normal,
         fontSize = 14.sp,
-        lineHeight = 20.sp,
-        color = Color(0xFF5D5D5D)
+        color = TextSecondary
     )
 )
 
+// =========================
+// App Theme
+// =========================
+
 @Composable
 fun MuneemJiTheme(
-    darkTheme: Boolean = isSystemInDarkTheme(), // Forcing light theme for now to match the warm aesthetic requested
     content: @Composable () -> Unit
 ) {
     MaterialTheme(
-        colorScheme = LightColorScheme, // Use light scheme primarily to enforce the warm paper aesthetic
+        colorScheme = DarkColors,
         typography = AppTypography,
         content = content
     )
